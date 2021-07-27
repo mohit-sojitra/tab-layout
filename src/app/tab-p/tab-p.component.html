@@ -1,0 +1,37 @@
+<div class="container">
+    <div
+      class="tab"
+      (click)="tabClickHandler('tab1')"
+      [ngClass]="{ active: activeTab == 'tab1' }"
+    >
+      Tab 1
+    </div>
+    <div
+      class="tab"
+      (click)="tabClickHandler('tab2')"
+      [ngClass]="{ active: activeTab == 'tab2' }"
+    >
+      Tab 2
+    </div>
+    <div
+      class="tab"
+      (click)="tabClickHandler('tab3')"
+      [ngClass]="{ active: activeTab == 'tab3' }"
+    >
+      Tab 3
+    </div>
+    <div
+      class="tab"
+      (click)="tabClickHandler('tab4')"
+      [ngClass]="{ active: activeTab == 'tab4' }"
+    >
+      Tab 4
+    </div>
+    <div
+      class="tab"
+      (click)="tabClickHandler('tab5')"
+      [ngClass]="{ active: activeTab == 'tab5' }"
+    >
+      Tab 5
+    </div>
+  </div>

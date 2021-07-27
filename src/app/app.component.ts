@@ -11,6 +11,8 @@ export class AppComponent {
 
   constructor() {
     this.activeTab = this.getCookie('activeTab') ? this.getCookie('activeTab') : 'tab1';
+    this.setCookie('test','test=124',2);
+    console.log(this.getCookie('test'));
   }
 
   tabClickHandler(activeTab: string) {
