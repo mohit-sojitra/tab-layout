@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #3a88c0;
+}
+.tab {
+    background-color: rgb(202, 202, 202);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: auto;
+    cursor: pointer;
+}
+.active {
+    background-color: rgb(255, 255, 255);
+}
